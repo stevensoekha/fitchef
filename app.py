@@ -12,7 +12,7 @@ for file in files.get('singles'):
 
 # Extract from doubles
 for file in files.get('doubles'):
-    print('>> Extracting file as single ***', file)
+    print('>> Extracting file as double ***', file)
     add_ingredients_to_list(file, data)
     add_ingredients_to_list(file, data)
 
