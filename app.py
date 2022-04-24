@@ -3,6 +3,9 @@ from lib.files import get_week_days
 from lib.extract import add_ingredients_to_list
 
 files = get_week_days()
+
+print(files)
+
 data = dict()
 
 # Extract from singles

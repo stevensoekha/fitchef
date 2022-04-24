@@ -6,12 +6,10 @@ def get_week_days():
     singles = list()
     doubles = list()
 
-    for file in os.listdir('./data/single'):
-        if (file.endswith('.html')):
-            singles.append(os.path.join("./data/single", file))
-
-    for file in os.listdir('./data/double'):
-        if (file.endswith('.html')):
-            doubles.append(os.path.join("./data/double", file))
+    for file in filter(lambda file: file.endswith('.html'), os.listdir('./data')):
+        if ('s' in file):
+            singles.append(os.path.join("./data", file))
+        else:
+            doubles.append(os.path.join("./data", file))
 
     return {"singles": singles, "doubles": doubles}
