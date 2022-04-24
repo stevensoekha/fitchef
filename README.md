@@ -4,7 +4,6 @@ Extracting all the ingredients I need to buy for this week and outputting it as 
 [Fitchef](https://fitchef.nl/) is a service that generates weekly recipes based on your intake level in kcal.
 
 ## Example output
-_
 - 875  ml halfvolle melk
 - 995  ml halfvolle yoghurt
 - 100  gram blauwe bessen (diepvries)
@@ -72,7 +71,6 @@ _
 - 2  sinaasappel
 - 2 ½ limoen
 - 150  gram boerenkool (diepvries)
-_
 
 ### Install
 Python3
